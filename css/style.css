@@ -58,6 +58,9 @@ main .container .tres a {
   color: #143F3F;
   background-color: whitesmoke;
 }
+main .container a:hover {
+  box-shadow: 3px 3px 5px grey;
+}
 
 /* version tablet*/
 @media (max-width: 1024px) {
