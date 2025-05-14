@@ -1,0 +1,85 @@
+main .container {
+  display: flex;
+  justify-content: center;
+  margin: 15% 20%;
+  color: white;
+}
+main .container .uno,
+main .container .dos,
+main .container .tres {
+  padding: 20px 45px;
+}
+main .container .uno h1,
+main .container .dos h2,
+main .container .tres h3 {
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, Helvetica, sans-serif;
+}
+main .container .uno p,
+main .container .dos p,
+main .container .tres p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+main .container .uno a,
+main .container .dos a,
+main .container .tres a {
+  padding: 5px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+main .container img {
+  transform: translateY(15px);
+}
+main .container .uno {
+  background-color: #E38525;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+main .container .uno a {
+  background-color: whitesmoke;
+  color: #E38525;
+}
+main .container .dos {
+  background-color: #276871;
+}
+main .container .dos a {
+  color: #276871;
+  background-color: whitesmoke;
+}
+main .container .tres {
+  background-color: #143F3F;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+main .container .tres a {
+  color: #143F3F;
+  background-color: whitesmoke;
+}
+
+/* version tablet*/
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    margin: 15% 10% !important;
+    padding: 0px 10%;
+  }
+  .uno {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px !important;
+  }
+  .tres {
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 20px;
+  }
+}
+/* version mobile*/
+@media (max-width: 608px) {
+  .container {
+    padding: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
